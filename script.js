@@ -1,5 +1,5 @@
 const links = {
-    discord: "https://discord.gg/wqdDZRhpP"
+    discord: "https://discord.gg/wqdDZRhpP",
 }
 
 const linkElements = document.querySelectorAll('.link');
