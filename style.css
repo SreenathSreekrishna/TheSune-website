@@ -29,7 +29,7 @@ body {
 
 .nav-link:not(.logo-container) a, .nav-link button {
     text-decoration: none;
-    width: 60%;
+    width: 70%;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -55,10 +55,28 @@ body {
     background: var(--primary-color);
 }
 
+.logo-container {
+    width: 200px;
+}
+
 .logo {
     border-radius: 50%;
     width: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.theme {
+    width: 150px !important;
+}
+
+.theme svg {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    color:var(--primary-color);
 }
