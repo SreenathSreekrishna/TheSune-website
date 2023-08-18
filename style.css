@@ -53,6 +53,7 @@ body {
     font-size: 25px;
     cursor: pointer;
     background: var(--primary-color);
+    color: var(--bg-color);
 }
 
 .logo-container {
@@ -80,16 +81,29 @@ body {
     height: 60%;
     color:var(--primary-color);
 }
+
+/*Homepage*/
+
 .text {
-    color:white;
+    margin:auto;
+    width: 510px;
+    color:var(--text-color);
     text-align: center;
     font-family: 'Montserrat';
     font-size: larger;
 }
-.yt {
-    position:absolute;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 
+/*Tutorials*/
+
+.yt-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 560px);
+}
+
+.yt-vid {
+    display: block;
 }

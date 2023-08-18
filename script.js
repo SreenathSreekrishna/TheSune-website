@@ -12,7 +12,7 @@ for (let i of linkElements) {
 
 const theme = document.querySelector('.theme');
 const themes = {
-    light: ['#112d38', '#ffffff', '#9bc3dd'],
+    light: ['#112d38', '#000000', '#9bc3dd'],
     dark: ['#9bc3dd', '#ffffff', '#112d38']
 }
 const themeChange = () => {
