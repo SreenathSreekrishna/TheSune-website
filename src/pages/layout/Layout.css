@@ -78,6 +78,7 @@
 }
 
 .logo::after {
+    border-radius: 50%;
     content: '';
     width: 164px;
     height: 164px;
@@ -93,4 +94,8 @@
 
 .logo:hover::after {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.logo img {
+    border-radius: 50%;
 }
