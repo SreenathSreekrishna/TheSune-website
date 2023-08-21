@@ -1,0 +1,31 @@
+.nav {
+    height: 200px;
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-nav, .right-nav {
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-nav {
+    left: calc(25% - 40px);
+}
+
+.right-nav {
+    left: calc(75% + 40px);
+}
+
+.logo {
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+}
