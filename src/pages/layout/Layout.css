@@ -7,9 +7,10 @@
 }
 
 .left-nav, .right-nav {
+    height: 20px;
     position: absolute;
     display: flex;
-    gap: 50px;
+    gap: 2vw;
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -28,4 +29,68 @@
     left: 50%;
     transform: translateX(-50%);
     width: 160px;
+}
+
+.nav-item {
+    position: relative;
+    width: 100px;
+}
+
+.nav-item a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-top: -10px;
+    border: 1px solid var(--text-color);
+    cursor: pointer;
+    width: 140px;
+    border-radius: 10px;
+    background: transparent;
+    padding: 10px;
+    font-family: var(--font);
+    font-size: inherit;
+    color: var(--text-color);
+    transition: color 0.4s, background 0.4s;
+}
+
+.btn:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
+.nav-item:not(.right-nav .nav-item:last-child)::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: var(--text-color);
+    top: 100%;
+    left: 0;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    transition: clip-path 0.5s;
+}
+
+.nav-item:not(.right-nav .nav-item:last-child):hover::after {
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+}
+
+.logo::after {
+    content: '';
+    width: 164px;
+    height: 164px;
+    background: var(--text-color);
+    z-index:-1;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    clip-path: polygon(50% 50%, 100% 0, 50% 50%, 0% 100%);
+    transform: translateX(-50%);
+    transition: clip-path 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.logo:hover::after {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
