@@ -31,10 +31,13 @@ const Layout = (props) => {
             </ul>
             <div className='logo'>
                 <Link to="/">
-                    <img src="logo.png" alt="TheSune logo" />
+                    <img src="/logo.png" alt="TheSune logo" />
                 </Link>
             </div>
         </nav>
+
+        <div className='bg-img'>
+        </div>
 
         <Outlet context={props.data} />
         </>

@@ -1,0 +1,25 @@
+.top-part {
+    margin-top: 160px;
+    text-align: center;
+}
+
+.top-part .heading {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.top-part .about {
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 75px;
+    width: 900px;
+}
+
+.top-part .main-buttons {
+    margin: auto;
+    width: fit-content;
+    margin-top: 75px;
+    display: flex;
+    gap: 40px;
+}
