@@ -58,8 +58,15 @@
     transition: color 0.4s, background 0.4s;
 }
 
+.btn a {
+    transition: color 0.4s;
+}
+
 .btn:hover {
     background: var(--text-color);
+}
+
+.btn:hover a{
     color: var(--bg-color);
 }
 

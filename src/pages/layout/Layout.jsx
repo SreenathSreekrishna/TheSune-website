@@ -25,7 +25,9 @@ const Layout = (props) => {
                         <Link to="/contact">Contact Us</Link>
                     </li>
                     <li className='nav-item'>
-                        <button className="btn discord-btn">Join Discord</button>
+                        <button className="btn discord-btn">
+                            <a href={props.data.discordLink} target="_blank" rel="noreferrer">Join Discord</a>
+                        </button>
                     </li>
                 </div>
             </ul>
