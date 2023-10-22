@@ -8,7 +8,7 @@ const Layout = (props) => {
             <ul className='nav'>
                 <div className='left-nav'>
                     <li className='nav-item'>
-                        <Link to="/sune1.0">Sune 1.0</Link>
+                        <Link to="/^3athon">^3athon</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="/archive">Archive</Link>

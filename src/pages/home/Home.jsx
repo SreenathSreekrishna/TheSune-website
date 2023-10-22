@@ -12,11 +12,15 @@ const Home = () => {
                 {data.mainAbout}
             </div>
             <div className='main-buttons'>
-                <button className='btn learn-more'>Learn More</button>
-                <button className='btn sune10'>Sune 1.0</button>
+                <button className='btn learn-more'>
+                    <a href='#history'>Learn More</a>
+                </button>
+                <button className='btn sune10'>
+                    <a href=''>Sune 1.0</a>
+                </button>
             </div>
         </div>
-        <div className='history'>
+        <div className='history' id='history'>
             <div className='history-img'></div>
             <div className='history-content'>
                 <div className='_history heading'>History</div>

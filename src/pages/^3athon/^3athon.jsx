@@ -1,5 +1,5 @@
 const Sune10 = () => {
-    return <div>Sune 1.0</div>;
+    return <div>^3athon</div>;
 }
 
 export default Sune10;

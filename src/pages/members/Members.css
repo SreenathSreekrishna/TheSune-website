@@ -1,0 +1,43 @@
+.heading-members {
+    font-size:70px;
+    margin-top:300px;
+    margin-bottom:300px;
+    text-align: center;
+}
+
+.presidents {
+    margin-top:400px;
+}
+
+.subheading {
+    font-size:50px;
+    text-align: center;
+    margin-top:100px;
+}
+
+.role-container {
+    margin-left:200px;
+    margin-right:200px;
+    gap:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.role {
+    padding: 20px;
+}
+
+.person-pfp {
+    background: var(--pfp-img);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+}
+
+.person-name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
