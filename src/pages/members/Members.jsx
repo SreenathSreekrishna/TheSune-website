@@ -1,5 +1,6 @@
 import './Members.css';
 import { useOutletContext } from 'react-router';
+import MemberCard from '../../components/MemberCard';
 
 const Members = () => {
     const data = useOutletContext();
@@ -10,16 +11,8 @@ const Members = () => {
         return <div className={`${code}s`}>
             <h1 className="subheading">{v+"s"}</h1>
             <div className={`${code}-container role-container`}>
-                {data.members.filter((e) => {return e.role === code}).map(president => {
-                    return <div className={`${code} role`}>
-                        <div className="person-pfp" style={{"--pfp-img": `url("${president.pfp}")`}}></div>
-                        <div className="person-name">{president.name}</div>
-                        <div className="person-socials">
-                            {president.socials.map(social => {
-                                return <div className={`social ${social.type}`}></div>
-                            })}
-                        </div>
-                    </div>;
+                {data.members.filter((e) => {return e.role === code}).map((person,i) => {
+                    return <MemberCard code={code} person={person} key={i} />;
                 })}
             </div>
         </div>;})}

@@ -30,6 +30,11 @@ const App = () => {
       {name: "member 4", role: "member", socials:[], pfp: ""},
       {name: "member 5", role: "member", socials:[], pfp: ""},
       {name: "member 6", role: "member", socials:[], pfp: ""}
+    ],
+    alumni: [
+      {name: "alum1", role: "alumni", socials:[], pfp: "", year:"2021"},
+      {name: "alum2", role: "alumni", socials:[], pfp: "", year:"2022"},
+      {name: "alum3", role: "alumni", socials:[], pfp: "", year:"2022"}
     ]
   }
   return (

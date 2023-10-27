@@ -36,7 +36,7 @@ const Home = () => {
                 </button>
             </div>
             <div className='discord-embed'>
-                <iframe title="TheSune Discord" src="https://discord.com/widget?id=939573906535223326&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <iframe title="TheSune Discord" src="https://discord.com/widget?id=939573906535223326&theme=dark" width="350" height="500" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </div>
         </div>
     </div>;
