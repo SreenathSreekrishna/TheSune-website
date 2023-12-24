@@ -1,0 +1,70 @@
+.heading-contact {
+    font-size:70px;
+    margin-top:300px;
+    margin-bottom:300px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 200px;
+    top: 500px;
+    gap: 20px;
+}
+
+.club-contact, .school-contact {
+    background: #13495CA9;
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.contact-text {
+    margin-top: 40px;
+}
+
+.contact-copy {
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: var(--font);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-size: 25px;
+    border: 2px solid var(--text-color);
+}
+
+.contact-copy:hover {
+    filter: contrast(150%)
+}
+
+.copied-alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #00ff0070;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    animation: fade-out 0.5s forwards, fade-out 0.5s reverse;
+    animation-delay: 1.5s, 0s;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}

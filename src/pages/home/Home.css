@@ -27,25 +27,30 @@
 .history {
     margin: 90px;
     margin-top: 300px;
-    display: flex;
-}
-
-.history-img {
-    position: relative;
-    border-radius: 10px;
-    width: 600px !important;
-    background: var(--text-color);
 }
 
 .history-content {
-    width: 50%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding:50px;
+}
+
+.history-content .text, .discord .text {
+    font-weight:100;
+}
+
+.history-imgs .img-container .img {
+    position: absolute;
+    background: var(--imgSrc) center/cover;
+    width: 800px;
+    height: 400px;
 }
 
 .heading {
     font-size: 40px;
     font-weight: 700;
+}
+
+._history.heading {
+    text-align: center;
 }
 
 .text {
@@ -55,21 +60,10 @@
     margin-top: 20px;
 }
 
-.history-img::after {
-    content: 'Photo Reqd Code Wars me kheech lena';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    color: black;
-}
-
 .discord {
     display: flex;
     margin: 90px;
+    margin-top: 500px;
 }
 
 .discord-embed {
@@ -79,4 +73,77 @@
 ._discord.btn {
     transform: scale(1.5);
     margin: 50px;
+}
+
+.indicators {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    top: 420px;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+}
+
+.num0, .num2 {
+    scale: 80%;
+    opacity: 25%;
+    z-index: -1;
+}
+
+.img-container {
+    display: flex;
+}
+
+.num1 {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.num0 {
+    left: -150px;
+}
+
+.num2 {
+    right: -150px;
+}
+
+.history-imgs, .arrows {
+    position: relative;
+}
+
+.arrows .arrow-right, .arrows .arrow-left {
+    font-size: 200px;
+    scale: 0.7 1;
+    position: absolute;
+    top: 90px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.img-animated {
+    animation: fade 0.4s forwards linear;
+}
+
+@keyframes fade {
+    0% {
+        opacity: auto;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: auto;
+    }
 }

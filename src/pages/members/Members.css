@@ -29,7 +29,7 @@
 }
 
 .person-pfp {
-    background: var(--pfp-img);
+    background: var(--pfp-img) center/cover !important;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -40,4 +40,5 @@
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 10px;
 }
