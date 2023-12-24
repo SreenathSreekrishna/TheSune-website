@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Home.css';
 import { useOutletContext } from "react-router";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const data = useOutletContext();
@@ -46,7 +47,7 @@ const Home = () => {
                     <a href='#history'>Learn More</a>
                 </button>
                 <button className='btn sune10'>
-                    <a href=''>Sune 1.0</a>
+                    <Link to="/^3athon">^3athon</Link>
                 </button>
             </div>
         </div>
