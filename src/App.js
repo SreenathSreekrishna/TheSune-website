@@ -27,7 +27,7 @@ const App = () => {
       {name: "Samanyu Naik", role: "vice_president", socials:[], pfp: "/assets/images/sune_members/Samanyu%20Naik.webp"},
       {name: "Aviansh Verma", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Aviansh%20Verma.webp"},
       {name: "Neev Sahay", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Neev%20Sahay.webp"},
-      {name: "Sanyog Das", role: "core_member", socials:[], pfp: ""},
+      {name: "Sanyog Das", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Sanyog%20Das.webp"},
       {name: "Ayushman Gupta", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Ayushman%20Gupta.webp"},
       {name: "Aditya Chauhan", role: "trainee", socials:[], pfp: ""},
       {name: "Rishit Litoria", role: "trainee", socials:[], pfp: ""}
