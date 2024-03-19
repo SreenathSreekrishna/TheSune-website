@@ -1,0 +1,42 @@
+.heading-\^3athon {
+    font-size:70px;
+    margin-top:200px;
+    text-align: center;
+}
+
+.\^3athon {
+    width: 900px;
+    margin: auto;
+}
+
+.results {
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+}
+
+.event {
+    padding: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #13495CA9;
+}
+
+.event-heading {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.event-data {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.school {
+    display: block;
+}
