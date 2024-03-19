@@ -5,8 +5,8 @@
     text-align: center;
 }
 
-.\000032022 h1 {
-    margin-top:420px;
+.alumnus-container:nth-child(2) h1 {
+    margin-top:420px !important;
 }
 
 .subheading {

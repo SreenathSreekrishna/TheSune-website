@@ -23,22 +23,21 @@ const App = () => {
     members: [
       // {name: "prez 1", role: "president", socials:[], pfp: ""},
       // {name: "prez 2", role: "president", socials:[], pfp: ""},
-      {name: "Soumil Sahu", role: "vice_president", socials:[], pfp: "/assets/images/sune_members/Soumil Sahu.webp"},
-      {name: "Samanyu Naik", role: "vice_president", socials:[], pfp: "/assets/images/sune_members/Samanyu Naik.webp"},
-      {name: "Viraj Uday Singh", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Viraj Uday Singh.webp"},
-      {name: "Shaurya Raizada", role: "core_member", socials:[], pfp: ""},
-      {name: "Aarav Mishra", role: "core_member", socials:[], pfp: ""},
-      {name: "Aviansh Verma", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Aviansh Verma.webp"},
-      {name: "Neev Sahay", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Neev Sahay.webp"},
+      {name: "Soumil Sahu", role: "vice_president", socials:[], pfp: "/assets/images/sune_members/Soumil%20Sahu.webp"},
+      {name: "Samanyu Naik", role: "vice_president", socials:[], pfp: "/assets/images/sune_members/Samanyu%20Naik.webp"},
+      {name: "Aviansh Verma", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Aviansh%20Verma.webp"},
+      {name: "Neev Sahay", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Neev%20Sahay.webp"},
       {name: "Sanyog Das", role: "core_member", socials:[], pfp: ""},
-      {name: "Ayushman Gupta", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Ayushman Gupta.webp"},
+      {name: "Ayushman Gupta", role: "core_member", socials:[], pfp: "/assets/images/sune_members/Ayushman%20Gupta.webp"},
       {name: "Aditya Chauhan", role: "trainee", socials:[], pfp: ""},
       {name: "Rishit Litoria", role: "trainee", socials:[], pfp: ""}
     ],
     alumni: [
-      {name: "alum1", role: "alumni", socials:[], pfp: "", year:"2021"},
-      {name: "alum2", role: "alumni", socials:[], pfp: "", year:"2022"},
-      {name: "alum3", role: "alumni", socials:[], pfp: "", year:"2022"}
+      {name: "Viraj Uday Singh", role: "alumni", socials:[], year:"2023", pfp: "/assets/images/sune_members/Viraj%20Uday%20Singh.webp"},
+      {name: "Shaurya Raizada", role: "alumni", socials:[], year:"2023", pfp: "/assets/images/sune_members/Shaurya%20Raizada.webp"},
+      {name: "Aarav Mishra", role: "alumni", socials:[], year:"2023", pfp: "/assets/images/sune_members/Aarav%20Mishra.webp"},
+      {name: "Akshit Gohain", role: "alumni", socials:[], year:"2022", pfp: "/assets/images/sune_members/Akshit%20Gohain.webp"},
+      {name: "Krishang Phogat", role: "alumni", socials:[], year:"2022", pfp: "/assets/images/sune_members/Krishang%20Phogat.webp"}
     ],
     contact: {
       school: 'principal@dpsvasantkunj.com',
