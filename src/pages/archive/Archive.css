@@ -1,0 +1,30 @@
+.heading-archive {
+    font-size:70px;
+    margin-top:300px;
+    margin-bottom:300px;
+    text-align: center;
+}
+
+.archive {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.archive-item {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #185C7566;
+    width: 50%;
+    margin: auto;
+}
+
+.archive-item-heading {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.archive-item-content p {
+    white-space: pre-wrap;
+}
