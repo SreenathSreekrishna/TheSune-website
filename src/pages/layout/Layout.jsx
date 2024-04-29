@@ -19,7 +19,7 @@ const Layout = (props) => {
                 </div>
                 <div className='right-nav'>
                     <li className='nav-item'>
-                        <Link to="/alumni">Alumni</Link>
+                        <Link to="/achievements">Achievements</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="/contact">Contact Us</Link>
@@ -42,6 +42,9 @@ const Layout = (props) => {
         </div>
 
         <Outlet context={props.data} />
+        <div className="footer">
+            Website co-created by&nbsp;<span className="name"><a href="https://discordapp.com/users/933911132408799272" target="_blank" rel="noreferrer">Sreenath Sreekrishna</a></span>&nbsp;and&nbsp;<span className="name"><a href="https://www.rover.com/blog/wp-content/uploads/black-dog-min.jpg" target="_blank" rel="noreferrer">&nbsp;Kanishka Kumar</a></span>
+        </div>
         </>
     )
 };
