@@ -41,6 +41,7 @@ const Contact = () => {
         <div className='copied-alert' style={{display:copied ? 'block' : 'none'}}>
             E-Mail Copied
         </div>
+        <div className='extra'></div>
     </div>;
 }
 

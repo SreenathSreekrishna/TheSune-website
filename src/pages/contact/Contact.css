@@ -11,6 +11,7 @@
     transform: translateX(-50%);
     left: 50%;
     padding: 200px;
+    padding-bottom: 0;
     top: 500px;
     gap: 20px;
 }
@@ -67,4 +68,8 @@
     100% {
         opacity: 0%;
     }
+}
+
+.extra {
+    height: 60px;
 }
